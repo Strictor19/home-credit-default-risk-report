@@ -4,13 +4,13 @@ This repository presents a comprehensive end-to-end workflow for credit default 
 
 ---
 
-## 📌 Project Motivation
+##  Project Motivation
 
 Accurately predicting credit default risk is crucial for financial institutions to minimize losses and make informed lending decisions. Traditional methods often fall short in capturing the complex relationships present in high-dimensional financial data. This project aims to benchmark a range of ML and DL models on a real-world dataset, exploring the impact of data preprocessing and model selection on predictive performance.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - **To build an end-to-end pipeline** for credit default risk prediction.
 - **To handle class imbalance** via both algorithmic and sampling strategies.
@@ -19,7 +19,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 🗃️ Dataset
+##  Dataset
 
 - **Source:** [Home Credit Default Risk (Kaggle)](https://www.kaggle.com/competitions/home-credit-default-risk)
 - **Samples:** 307,511 applications
@@ -28,7 +28,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## ⚙️ Workflow & Methodology
+##  Workflow & Methodology
 
 1. **Data Preprocessing**
    - Removal of features with excessive missing values
@@ -56,7 +56,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 🏆 Key Results
+##  Key Results
 
 - **Best ML Model:** XGBoost achieved the highest AUC and recall, making it ideal for detecting potential defaults.
 - **Best DL Model:** DNN (MLP) provided competitive precision but overall lower recall due to class imbalance.
@@ -64,7 +64,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 📄 Files in this Repository
+##  Files in this Repository
 
 - `Home_Credit_Default_Risk_Report.ipynb` – Main Colab/Jupyter notebook (Turkish; code, visualizations, and analysis)
 - `Home_Credit_Default_Risk_IEEE_Paper.pdf` – Final IEEE-format project paper (English)
@@ -72,7 +72,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Download or clone the repository.
 2. Open `Home_Credit_Default_Risk_Report.ipynb` in [Google Colab](https://colab.research.google.com/) or Jupyter Notebook.
@@ -81,7 +81,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 📊 Sample Outputs
+##  Sample Outputs
 
 - Model performance comparison charts
 - ROC curves and confusion matrices for each model
@@ -89,7 +89,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 💡 Key Insights & Discussion
+##  Key Insights & Discussion
 
 - Handling class imbalance is **crucial** for fair evaluation—recall and F1-score are as important as accuracy.
 - Ensemble ML models (XGBoost, CatBoost) are strong baselines for tabular financial data.
@@ -98,7 +98,7 @@ Accurately predicting credit default risk is crucial for financial institutions 
 
 ---
 
-## 👤 Author
+##  Author
 
 **Arda Adar**  
 Computer Engineering Department, Biruni University, Istanbul, Türkiye  
@@ -106,7 +106,7 @@ Contact: 220404013@st.biruni.edu.tr
 
 ---
 
-## 📚 References
+##  References
 
 - [Project Kaggle page](https://www.kaggle.com/competitions/home-credit-default-risk)
 - See PDF report for detailed references.
